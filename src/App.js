@@ -8,7 +8,7 @@ import RingView from './views/RingView';
 
 const App = () => {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router>
       <Nav></Nav>
       <Routes>
         <Route path="/" exact element={<HandView/>}/>
